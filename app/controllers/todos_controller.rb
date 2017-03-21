@@ -22,7 +22,8 @@ end
     respond_to do |format|
     format.html { redirect_to root_path }
     format.js { }
-  end  end
+  end  
+end
 
   private
     def todo_params
